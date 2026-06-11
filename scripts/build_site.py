@@ -27,9 +27,9 @@ REC_CHIP = (f'<span class="chip"><b>{rec["correct"]}/{rec["total"]}</b> correct 
 html = """<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GoldenBoot — World Cup 2026 Predictions, Powered by Data</title>
+<title>GoldenBoot | World Cup 2026 Predictions, Powered by Data</title>
 <meta name="description" content="Data-driven match predictions, group forecasts and champion odds for the FIFA World Cup 2026. Elo + Poisson model, backtested. Fair odds for every match.">
-<meta property="og:title" content="GoldenBoot — World Cup 2026 Predictions">
+<meta property="og:title" content="GoldenBoot | World Cup 2026 Predictions">
 <meta property="og:description" content="Probabilities for all 104 matches. Transparent model, public track record.">
 <meta name="theme-color" content="#D4A843">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>⚽</text></svg>">
@@ -101,7 +101,7 @@ footer .rg{margin-top:8px}
 </style></head><body>
 <div class="hero"><div class="wrap">
 <div class="logo">Golden<b>Boot</b> ⚽</div>
-<h1>World Cup 2026 predictions,<br><em>powered by data</em> — not gut feeling</h1>
+<h1>World Cup 2026 predictions,<br><em>powered by data</em>, not gut feeling</h1>
 <p>An Elo + Poisson model trained on 49,000+ internationals since 1872. Every probability is transparent, backtested, and tracked publicly.</p>
 <div class="chips">
 <span class="chip"><b>104</b> matches covered</span>
@@ -119,7 +119,7 @@ __REC__
 </div></nav>
 <main><div class="wrap" id="main"></div></main>
 <footer>
-GoldenBoot is an analytics project. Probabilities are model estimates, not guarantees — short tournaments are high-variance.
+GoldenBoot is an analytics project. Probabilities are model estimates, not guarantees. Short tournaments are high variance.
 <div class="rg">18+ · Please gamble responsibly · <a href="https://www.begambleaware.org">BeGambleAware.org</a> · No betting operator affiliation.</div>
 </footer>
 <script>
@@ -131,7 +131,7 @@ const fmtDay = d => new Date(d+'T12:00').toLocaleDateString('en-GB',{weekday:'sh
 let selDay = null;
 function vMatches(){
   const days = [...new Set(D.matches.map(m=>m.date))];
-  if(!days.length) return '<p class="note">No upcoming matches — tournament finished. Thanks for following!</p>';
+  if(!days.length) return '<p class="note">No upcoming matches - tournament finished. Thanks for following!</p>';
   const today = new Date().toISOString().slice(0,10);
   if(!selDay || !days.includes(selDay)) selDay = days.includes(today) ? today : days.find(d=>d>=today) || days[0];
   let h = '<div class="days">' + days.map(d=>
@@ -152,11 +152,11 @@ function vMatches(){
       </div>
       <div class="blabels"><span>${m.home} win</span><span>draw</span><span>${m.away} win</span></div>
       <div class="mx"><div class="mxin">
-        <div class="stat"><div class="k">Expected goals</div><div class="v">${m.xg_h} – ${m.xg_a}</div></div>
+        <div class="stat"><div class="k">Expected goals</div><div class="v">${m.xg_h} - ${m.xg_a}</div></div>
         <div class="stat"><div class="k">Over 2.5 goals</div><div class="v">${pct(m.over25)}</div></div>
         <div class="stat"><div class="k">Both teams score</div><div class="v">${pct(m.btts)}</div></div>
         <div class="stat"><div class="k">Likely scores</div><div class="v" style="font-size:13px">${best}</div></div>
-        <div class="fair">Fair odds (1/p): <b>${odds(m.p_home)}</b> home · <b>${odds(m.p_draw)}</b> draw · <b>${odds(m.p_away)}</b> away — a bookmaker price <i>above</i> these suggests value.</div>
+        <div class="fair">Fair odds (1/p): <b>${odds(m.p_home)}</b> home · <b>${odds(m.p_draw)}</b> draw · <b>${odds(m.p_away)}</b> away A bookmaker price <i>above</i> these suggests value.</div>
       </div></div>
     </div>`;
   }
@@ -175,13 +175,13 @@ function vGroups(){
   return h + '</div><p class="note">"Advance" = probability of reaching the round of 32 (top 2 + 8 best third-placed teams). Played results are baked in; remaining matches are simulated 10,000 times.</p>';
 }
 function vRecord(){
-  if(!D.track.length) return '<p class="note">No completed matches evaluated yet — the record goes live after the first matchday. Every prediction is locked in before kickoff and never edited.</p>';
+  if(!D.track.length) return '<p class="note">No completed matches evaluated yet - the record goes live after the first matchday. Every prediction is locked in before kickoff and never edited.</p>';
   const n = D.track.length, c = D.track.filter(t=>t.correct).length;
   let h = `<p class="note" style="margin-bottom:12px">Every 1X2 pick the model made, locked before kickoff: <b style="color:var(--txt)">${c}/${n} correct (${Math.round(c/n*100)}%)</b></p>`;
   h += '<table class="tbl"><tr><th>Date</th><th>Match</th><th>Score</th><th>Pick (prob)</th><th>Result</th></tr>';
   for(const t of D.track){
     h += `<tr><td style="color:var(--mut)">${t.date.slice(5)}</td>
-    <td>${FL[t.home]||''} ${t.home} – ${t.away} ${FL[t.away]||''}</td><td>${t.score}</td>
+    <td>${FL[t.home]||''} ${t.home} - ${t.away} ${FL[t.away]||''}</td><td>${t.score}</td>
     <td>${t.pick} (${pct(t.pick_p)})</td>
     <td class="${t.correct?'ok':'bad'}">${t.correct?'✓ hit':'✗ miss'}</td></tr>`;
   }
