@@ -1,1 +1,29 @@
-
+name: Daily model update
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC zilnic
+  workflow_dispatch:        # buton de rulare manuala
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas numpy scipy
+      - name: Get latest results
+        run: git clone --depth 1 https://github.com/martj42/international_results /tmp/intl
+      - name: Run model
+        run: python scripts/model.py /tmp/intl/results.csv
+      - name: Build site
+        run: python scripts/build_site.py
+      - name: Commit & push
+        run: |
+          git config user.name "goldenboot-bot"
+          git config user.email "actions@github.com"
+          git add index.html predictions.json track_record.json
+          git diff --cached --quiet || git commit -m "Daily update $(date -u +%F)"
+          git push
