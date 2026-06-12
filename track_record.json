@@ -1,1 +1,24 @@
-[]
+[
+ {
+  "date": "2026-06-11",
+  "home": "South Korea",
+  "away": "Czech Republic",
+  "score": "2-1",
+  "pick": "1",
+  "pick_p": 0.4732,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 2.11
+ },
+ {
+  "date": "2026-06-11",
+  "home": "Mexico",
+  "away": "South Africa",
+  "score": "2-0",
+  "pick": "1",
+  "pick_p": 0.7364,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.36
+ }
+]
