@@ -20,5 +20,27 @@
   "actual": "1",
   "correct": true,
   "fair_odds": 1.36
+ },
+ {
+  "date": "2026-06-12",
+  "home": "Canada",
+  "away": "Bosnia and Herzegovina",
+  "score": "1-1",
+  "pick": "1",
+  "pick_p": 0.6124,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 1.63
+ },
+ {
+  "date": "2026-06-12",
+  "home": "United States",
+  "away": "Paraguay",
+  "score": "4-1",
+  "pick": "2",
+  "pick_p": 0.4684,
+  "actual": "1",
+  "correct": false,
+  "fair_odds": 2.13
  }
 ]
