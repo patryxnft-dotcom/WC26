@@ -130,5 +130,93 @@
   "actual": "1",
   "correct": true,
   "fair_odds": 2.56
+ },
+ {
+  "date": "2026-06-15",
+  "home": "Belgium",
+  "away": "Egypt",
+  "score": "1-1",
+  "pick": "1",
+  "pick_p": 0.5431,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 1.84
+ },
+ {
+  "date": "2026-06-15",
+  "home": "Iran",
+  "away": "New Zealand",
+  "score": "2-2",
+  "pick": "1",
+  "pick_p": 0.5413,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 1.85
+ },
+ {
+  "date": "2026-06-15",
+  "home": "Spain",
+  "away": "Cape Verde",
+  "score": "0-0",
+  "pick": "1",
+  "pick_p": 0.9168,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 1.09
+ },
+ {
+  "date": "2026-06-15",
+  "home": "Saudi Arabia",
+  "away": "Uruguay",
+  "score": "1-1",
+  "pick": "2",
+  "pick_p": 0.6668,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 1.5
+ },
+ {
+  "date": "2026-06-16",
+  "home": "Argentina",
+  "away": "Algeria",
+  "score": "3-0",
+  "pick": "1",
+  "pick_p": 0.6855,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.46
+ },
+ {
+  "date": "2026-06-16",
+  "home": "Austria",
+  "away": "Jordan",
+  "score": "3-1",
+  "pick": "1",
+  "pick_p": 0.4772,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 2.1
+ },
+ {
+  "date": "2026-06-16",
+  "home": "France",
+  "away": "Senegal",
+  "score": "3-1",
+  "pick": "1",
+  "pick_p": 0.6158,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.62
+ },
+ {
+  "date": "2026-06-16",
+  "home": "Iraq",
+  "away": "Norway",
+  "score": "1-4",
+  "pick": "2",
+  "pick_p": 0.6522,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 1.53
  }
 ]
