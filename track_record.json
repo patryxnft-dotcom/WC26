@@ -306,5 +306,49 @@
   "actual": "1",
   "correct": true,
   "fair_odds": 1.46
+ },
+ {
+  "date": "2026-06-19",
+  "home": "Turkey",
+  "away": "Paraguay",
+  "score": "0-1",
+  "pick": "1",
+  "pick_p": 0.4117,
+  "actual": "2",
+  "correct": false,
+  "fair_odds": 2.43
+ },
+ {
+  "date": "2026-06-19",
+  "home": "United States",
+  "away": "Australia",
+  "score": "2-0",
+  "pick": "2",
+  "pick_p": 0.4243,
+  "actual": "1",
+  "correct": false,
+  "fair_odds": 2.36
+ },
+ {
+  "date": "2026-06-19",
+  "home": "Scotland",
+  "away": "Morocco",
+  "score": "0-1",
+  "pick": "2",
+  "pick_p": 0.4951,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 2.02
+ },
+ {
+  "date": "2026-06-19",
+  "home": "Brazil",
+  "away": "Haiti",
+  "score": "3-0",
+  "pick": "1",
+  "pick_p": 0.7662,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.31
  }
 ]
