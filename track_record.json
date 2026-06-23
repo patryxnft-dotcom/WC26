@@ -438,5 +438,49 @@
   "actual": "X",
   "correct": false,
   "fair_odds": 1.5
+ },
+ {
+  "date": "2026-06-22",
+  "home": "Jordan",
+  "away": "Algeria",
+  "score": "1-2",
+  "pick": "2",
+  "pick_p": 0.4965,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 2.01
+ },
+ {
+  "date": "2026-06-22",
+  "home": "Argentina",
+  "away": "Austria",
+  "score": "2-0",
+  "pick": "1",
+  "pick_p": 0.6708,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.49
+ },
+ {
+  "date": "2026-06-22",
+  "home": "Norway",
+  "away": "Senegal",
+  "score": "3-2",
+  "pick": "1",
+  "pick_p": 0.5319,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.88
+ },
+ {
+  "date": "2026-06-22",
+  "home": "France",
+  "away": "Iraq",
+  "score": "3-0",
+  "pick": "1",
+  "pick_p": 0.8062,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.24
  }
 ]
