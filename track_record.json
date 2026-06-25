@@ -526,5 +526,71 @@
   "actual": "2",
   "correct": true,
   "fair_odds": 1.87
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Scotland",
+  "away": "Brazil",
+  "score": "0-3",
+  "pick": "2",
+  "pick_p": 0.5742,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 1.74
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Mexico",
+  "away": "Czech Republic",
+  "score": "3-0",
+  "pick": "1",
+  "pick_p": 0.643,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.56
+ },
+ {
+  "date": "2026-06-24",
+  "home": "South Africa",
+  "away": "South Korea",
+  "score": "1-0",
+  "pick": "2",
+  "pick_p": 0.6462,
+  "actual": "1",
+  "correct": false,
+  "fair_odds": 1.55
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Canada",
+  "away": "Switzerland",
+  "score": "1-2",
+  "pick": "2",
+  "pick_p": 0.4402,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 2.27
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Bosnia and Herzegovina",
+  "away": "Qatar",
+  "score": "3-1",
+  "pick": "1",
+  "pick_p": 0.4736,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 2.11
+ },
+ {
+  "date": "2026-06-24",
+  "home": "Morocco",
+  "away": "Haiti",
+  "score": "4-2",
+  "pick": "1",
+  "pick_p": 0.764,
+  "actual": "1",
+  "correct": true,
+  "fair_odds": 1.31
  }
 ]
