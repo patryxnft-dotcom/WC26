@@ -592,5 +592,71 @@
   "actual": "1",
   "correct": true,
   "fair_odds": 1.31
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Tunisia",
+  "away": "Netherlands",
+  "score": "1-3",
+  "pick": "2",
+  "pick_p": 0.7746,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 1.29
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Japan",
+  "away": "Sweden",
+  "score": "1-1",
+  "pick": "1",
+  "pick_p": 0.6329,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 1.58
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Ecuador",
+  "away": "Germany",
+  "score": "2-1",
+  "pick": "2",
+  "pick_p": 0.4452,
+  "actual": "1",
+  "correct": false,
+  "fair_odds": 2.25
+ },
+ {
+  "date": "2026-06-25",
+  "home": "United States",
+  "away": "Turkey",
+  "score": "2-3",
+  "pick": "1",
+  "pick_p": 0.4235,
+  "actual": "2",
+  "correct": false,
+  "fair_odds": 2.36
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Paraguay",
+  "away": "Australia",
+  "score": "0-0",
+  "pick": "1",
+  "pick_p": 0.3623,
+  "actual": "X",
+  "correct": false,
+  "fair_odds": 2.76
+ },
+ {
+  "date": "2026-06-25",
+  "home": "Cura\u00e7ao",
+  "away": "Ivory Coast",
+  "score": "0-2",
+  "pick": "2",
+  "pick_p": 0.5993,
+  "actual": "2",
+  "correct": true,
+  "fair_odds": 1.67
  }
 ]
