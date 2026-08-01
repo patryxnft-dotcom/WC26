@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-31",
+ "generated": "2026-08-01",
  "n_sim": 10000,
  "backtest": {
   "wc2022_acc": 0.547,
@@ -571,63 +571,63 @@
  "champion": [
   {
    "team": "Spain",
-   "p": 0.3334
+   "p": 0.3322
   },
   {
    "team": "Argentina",
-   "p": 0.1329
+   "p": 0.1319
   },
   {
    "team": "England",
-   "p": 0.1165
+   "p": 0.1194
   },
   {
    "team": "France",
-   "p": 0.0514
+   "p": 0.0515
   },
   {
    "team": "Colombia",
-   "p": 0.0433
+   "p": 0.0424
   },
   {
    "team": "Brazil",
-   "p": 0.0409
+   "p": 0.0401
   },
   {
    "team": "Norway",
-   "p": 0.0362
+   "p": 0.037
   },
   {
    "team": "Netherlands",
-   "p": 0.0348
-  },
-  {
-   "team": "Morocco",
-   "p": 0.0321
+   "p": 0.0347
   },
   {
    "team": "Mexico",
-   "p": 0.0317
+   "p": 0.0325
+  },
+  {
+   "team": "Morocco",
+   "p": 0.0316
   },
   {
    "team": "Belgium",
-   "p": 0.0304
+   "p": 0.0305
   },
   {
    "team": "Portugal",
-   "p": 0.0297
+   "p": 0.0304
   },
   {
    "team": "Germany",
-   "p": 0.0199
-  },
-  {
-   "team": "Switzerland",
    "p": 0.0193
   },
   {
+   "team": "Switzerland",
+   "p": 0.0192
+  },
+  {
    "team": "Japan",
-   "p": 0.016
+   "p": 0.0157
   }
  ]
 }
