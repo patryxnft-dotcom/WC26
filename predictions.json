@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "n_sim": 10000,
  "backtest": {
   "wc2022_acc": 0.547,
@@ -54,7 +54,7 @@
   },
   {
    "team": "Germany",
-   "elo": 2044
+   "elo": 2043
   },
   {
    "team": "Netherlands",
@@ -70,7 +70,7 @@
   },
   {
    "team": "Paraguay",
-   "elo": 1977
+   "elo": 1976
   },
   {
    "team": "Ecuador",
@@ -94,7 +94,7 @@
   },
   {
    "team": "Austria",
-   "elo": 1912
+   "elo": 1911
   },
   {
    "team": "Australia",
@@ -130,11 +130,11 @@
   },
   {
    "team": "Egypt",
-   "elo": 1830
+   "elo": 1829
   },
   {
    "team": "Scotland",
-   "elo": 1817
+   "elo": 1816
   },
   {
    "team": "Algeria",
@@ -158,7 +158,7 @@
   },
   {
    "team": "Bosnia and Herzegovina",
-   "elo": 1764
+   "elo": 1763
   },
   {
    "team": "Jordan",
@@ -247,7 +247,7 @@
    },
    {
     "team": "Bosnia and Herzegovina",
-    "elo": 1764,
+    "elo": 1763,
     "pts": 4,
     "p_top2": 0.0,
     "p_advance": 1.0
@@ -291,7 +291,7 @@
    },
    {
     "team": "Scotland",
-    "elo": 1817,
+    "elo": 1816,
     "pts": 3,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -307,7 +307,7 @@
    },
    {
     "team": "Paraguay",
-    "elo": 1977,
+    "elo": 1976,
     "pts": 5,
     "p_top2": 0.0,
     "p_advance": 1.0
@@ -330,7 +330,7 @@
   "E": [
    {
     "team": "Germany",
-    "elo": 2044,
+    "elo": 2043,
     "pts": 7,
     "p_top2": 1.0,
     "p_advance": 1.0
@@ -397,7 +397,7 @@
    },
    {
     "team": "Egypt",
-    "elo": 1830,
+    "elo": 1829,
     "pts": 6,
     "p_top2": 1.0,
     "p_advance": 1.0
@@ -494,7 +494,7 @@
    },
    {
     "team": "Austria",
-    "elo": 1912,
+    "elo": 1911,
     "pts": 4,
     "p_top2": 1.0,
     "p_advance": 1.0
@@ -571,63 +571,63 @@
  "champion": [
   {
    "team": "Spain",
-   "p": 0.3133
+   "p": 0.3112
   },
   {
    "team": "England",
-   "p": 0.1497
+   "p": 0.1521
   },
   {
    "team": "Argentina",
-   "p": 0.1297
+   "p": 0.1302
   },
   {
    "team": "France",
-   "p": 0.0504
-  },
-  {
-   "team": "Belgium",
-   "p": 0.0407
-  },
-  {
-   "team": "Brazil",
-   "p": 0.0403
+   "p": 0.0473
   },
   {
    "team": "Colombia",
-   "p": 0.0383
+   "p": 0.0397
+  },
+  {
+   "team": "Belgium",
+   "p": 0.0397
+  },
+  {
+   "team": "Brazil",
+   "p": 0.0396
   },
   {
    "team": "Portugal",
-   "p": 0.033
+   "p": 0.0345
   },
   {
    "team": "Switzerland",
-   "p": 0.0324
+   "p": 0.0342
   },
   {
    "team": "Morocco",
-   "p": 0.0308
+   "p": 0.029
   },
   {
    "team": "Germany",
-   "p": 0.0305
+   "p": 0.0283
   },
   {
    "team": "Netherlands",
-   "p": 0.0266
+   "p": 0.0265
   },
   {
    "team": "Norway",
-   "p": 0.0225
+   "p": 0.0237
   },
   {
    "team": "Japan",
-   "p": 0.0138
+   "p": 0.0141
   },
   {
    "team": "Paraguay",
-   "p": 0.0102
+   "p": 0.0106
   }
  ]
 }
