@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "n_sim": 10000,
  "backtest": {
   "wc2022_acc": 0.547,
@@ -46,7 +46,7 @@
   },
   {
    "team": "Switzerland",
-   "elo": 2057
+   "elo": 2056
   },
   {
    "team": "Morocco",
@@ -54,7 +54,7 @@
   },
   {
    "team": "Germany",
-   "elo": 2043
+   "elo": 2044
   },
   {
    "team": "Netherlands",
@@ -70,7 +70,7 @@
   },
   {
    "team": "Paraguay",
-   "elo": 1976
+   "elo": 1977
   },
   {
    "team": "Ecuador",
@@ -82,7 +82,7 @@
   },
   {
    "team": "Uruguay",
-   "elo": 1965
+   "elo": 1967
   },
   {
    "team": "United States",
@@ -94,7 +94,7 @@
   },
   {
    "team": "Austria",
-   "elo": 1911
+   "elo": 1912
   },
   {
    "team": "Australia",
@@ -106,7 +106,7 @@
   },
   {
    "team": "Senegal",
-   "elo": 1888
+   "elo": 1889
   },
   {
    "team": "Iran",
@@ -126,22 +126,22 @@
   },
   {
    "team": "Ivory Coast",
-   "elo": 1853
+   "elo": 1854
   },
   {
    "team": "Egypt",
-   "elo": 1829
+   "elo": 1830
   },
   {
    "team": "Scotland",
    "elo": 1816
   },
   {
-   "team": "Algeria",
-   "elo": 1798
+   "team": "DR Congo",
+   "elo": 1800
   },
   {
-   "team": "DR Congo",
+   "team": "Algeria",
    "elo": 1798
   },
   {
@@ -150,31 +150,31 @@
   },
   {
    "team": "Uzbekistan",
-   "elo": 1771
+   "elo": 1772
   },
   {
    "team": "Saudi Arabia",
-   "elo": 1766
+   "elo": 1769
   },
   {
    "team": "Bosnia and Herzegovina",
-   "elo": 1763
+   "elo": 1765
   },
   {
    "team": "Jordan",
-   "elo": 1750
+   "elo": 1755
   },
   {
    "team": "Czech Republic",
-   "elo": 1734
-  },
-  {
-   "team": "South Africa",
-   "elo": 1721
+   "elo": 1731
   },
   {
    "team": "New Zealand",
-   "elo": 1716
+   "elo": 1717
+  },
+  {
+   "team": "South Africa",
+   "elo": 1715
   },
   {
    "team": "Haiti",
@@ -182,7 +182,7 @@
   },
   {
    "team": "Iraq",
-   "elo": 1683
+   "elo": 1684
   },
   {
    "team": "Curaçao",
@@ -194,7 +194,7 @@
   },
   {
    "team": "Cape Verde",
-   "elo": 1617
+   "elo": 1639
   },
   {
    "team": "Tunisia",
@@ -202,7 +202,7 @@
   },
   {
    "team": "Qatar",
-   "elo": 1592
+   "elo": 1589
   }
  ],
  "matches": [],
@@ -217,7 +217,7 @@
    },
    {
     "team": "South Africa",
-    "elo": 1721,
+    "elo": 1715,
     "pts": 4,
     "p_top2": 1.0,
     "p_advance": 1.0
@@ -231,7 +231,7 @@
    },
    {
     "team": "Czech Republic",
-    "elo": 1734,
+    "elo": 1731,
     "pts": 1,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -247,21 +247,21 @@
    },
    {
     "team": "Bosnia and Herzegovina",
-    "elo": 1763,
+    "elo": 1765,
     "pts": 4,
     "p_top2": 0.0,
     "p_advance": 1.0
    },
    {
     "team": "Switzerland",
-    "elo": 2057,
+    "elo": 2056,
     "pts": 11,
     "p_top2": 1.0,
     "p_advance": 1.0
    },
    {
     "team": "Qatar",
-    "elo": 1592,
+    "elo": 1589,
     "pts": 1,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -307,7 +307,7 @@
    },
    {
     "team": "Paraguay",
-    "elo": 1976,
+    "elo": 1977,
     "pts": 5,
     "p_top2": 0.0,
     "p_advance": 1.0
@@ -330,14 +330,14 @@
   "E": [
    {
     "team": "Germany",
-    "elo": 2043,
+    "elo": 2044,
     "pts": 7,
     "p_top2": 1.0,
     "p_advance": 1.0
    },
    {
     "team": "Ivory Coast",
-    "elo": 1853,
+    "elo": 1854,
     "pts": 6,
     "p_top2": 1.0,
     "p_advance": 1.0
@@ -397,7 +397,7 @@
    },
    {
     "team": "Egypt",
-    "elo": 1829,
+    "elo": 1830,
     "pts": 6,
     "p_top2": 1.0,
     "p_advance": 1.0
@@ -411,7 +411,7 @@
    },
    {
     "team": "New Zealand",
-    "elo": 1716,
+    "elo": 1717,
     "pts": 1,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -427,21 +427,21 @@
    },
    {
     "team": "Cape Verde",
-    "elo": 1617,
+    "elo": 1639,
     "pts": 3,
     "p_top2": 1.0,
     "p_advance": 1.0
    },
    {
     "team": "Saudi Arabia",
-    "elo": 1766,
+    "elo": 1769,
     "pts": 2,
     "p_top2": 0.0,
     "p_advance": 0.0
    },
    {
     "team": "Uruguay",
-    "elo": 1965,
+    "elo": 1967,
     "pts": 2,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -457,7 +457,7 @@
    },
    {
     "team": "Senegal",
-    "elo": 1888,
+    "elo": 1889,
     "pts": 3,
     "p_top2": 0.0,
     "p_advance": 1.0
@@ -471,7 +471,7 @@
    },
    {
     "team": "Iraq",
-    "elo": 1683,
+    "elo": 1684,
     "pts": 0,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -494,14 +494,14 @@
    },
    {
     "team": "Austria",
-    "elo": 1911,
+    "elo": 1912,
     "pts": 4,
     "p_top2": 1.0,
     "p_advance": 1.0
    },
    {
     "team": "Jordan",
-    "elo": 1750,
+    "elo": 1755,
     "pts": 0,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -517,7 +517,7 @@
    },
    {
     "team": "DR Congo",
-    "elo": 1798,
+    "elo": 1800,
     "pts": 4,
     "p_top2": 0.0,
     "p_advance": 1.0
@@ -531,7 +531,7 @@
    },
    {
     "team": "Uzbekistan",
-    "elo": 1771,
+    "elo": 1772,
     "pts": 0,
     "p_top2": 0.0,
     "p_advance": 0.0
@@ -571,59 +571,59 @@
  "champion": [
   {
    "team": "Spain",
-   "p": 0.3112
+   "p": 0.3069
   },
   {
    "team": "England",
-   "p": 0.1521
+   "p": 0.1555
   },
   {
    "team": "Argentina",
-   "p": 0.1302
+   "p": 0.1374
   },
   {
    "team": "France",
-   "p": 0.0473
+   "p": 0.0437
   },
   {
    "team": "Colombia",
-   "p": 0.0397
+   "p": 0.0388
   },
   {
    "team": "Belgium",
-   "p": 0.0397
+   "p": 0.0387
   },
   {
    "team": "Brazil",
-   "p": 0.0396
-  },
-  {
-   "team": "Portugal",
-   "p": 0.0345
-  },
-  {
-   "team": "Switzerland",
-   "p": 0.0342
+   "p": 0.0376
   },
   {
    "team": "Morocco",
-   "p": 0.029
+   "p": 0.0339
   },
   {
-   "team": "Germany",
-   "p": 0.0283
+   "team": "Portugal",
+   "p": 0.0335
+  },
+  {
+   "team": "Switzerland",
+   "p": 0.0316
   },
   {
    "team": "Netherlands",
-   "p": 0.0265
+   "p": 0.0261
+  },
+  {
+   "team": "Germany",
+   "p": 0.0257
   },
   {
    "team": "Norway",
-   "p": 0.0237
+   "p": 0.0234
   },
   {
    "team": "Japan",
-   "p": 0.0141
+   "p": 0.0177
   },
   {
    "team": "Paraguay",
